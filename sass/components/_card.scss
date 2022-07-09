@@ -1,9 +1,10 @@
 .card {
   display: flex;
-  // align-items: center;
-  // justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+
+  // align-items: center;
+  // justify-content: center;
 }
 // .card .card__item + .card__item {
 //   margin-left: var(--typical-margin);

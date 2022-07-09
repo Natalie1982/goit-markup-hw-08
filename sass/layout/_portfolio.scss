@@ -22,20 +22,24 @@
   // margin-left: var(--typical-margin);
   // margin-top: var(--typical-margin);
 
+  display: flex;
+
   width: 450px;
   @include tablet {
-    flex-basis: calc((100% - 30px) / 2);
+    width: calc((100% - 30px) / 2);
   }
   @include desktop {
-    flex-basis: calc((100% - 60px) / 3);
+    width: calc((100% - 60px) / 3);
   }
 }
 .gallery__link {
-  display: block;
+  display: flex;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
+
+  flex-direction: column;
 }
 .gallery__link:hover,
 .gallery__link:focus {
@@ -47,6 +51,8 @@
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+
+  flex-grow: 1;
 }
 .gallery__title {
   font-size: 18px;

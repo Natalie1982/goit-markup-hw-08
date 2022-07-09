@@ -23,6 +23,7 @@
   @include tablet {
   }
   @include desktop {
+    margin-bottom: 0;
   }
 
   // margin-right: 70px;
@@ -84,7 +85,7 @@
 
   @include tablet {
     margin-bottom: 0;
-    margin-left: 165px;
+    // margin-left: 165px;
   }
   @include desktop {
     margin-left: 70px;

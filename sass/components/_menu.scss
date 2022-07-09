@@ -15,6 +15,8 @@
   // justify-content: center;
 
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   @media screen and (max-width: 767px) {
     margin-bottom: 40px;
     flex-wrap: wrap;
@@ -29,9 +31,9 @@
   }
 }
 
-.menu__list .menu__item + .menu__item {
-  margin-left: 8px;
-}
+// .menu__list .menu__item + .menu__item {
+//   margin-left: 8px;
+// }
 .menu__btn {
   font-family: inherit;
   font-weight: 500;
